@@ -1,0 +1,72 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php"></form>
+    <label for="name">Name:</label>
+    <div>
+       <input type="text" name="myName" id="name">
+    </div>
+    <br>
+    <label for="role">Role:</label>
+    <div>
+      <input type="text" name="myrole" id="role">
+    </div>
+    <br>
+    <label for="email">Email:</label>
+    <div>
+         <input type="email" name="myEmail" id="email">
+    </div>
+    <br>
+    <label for="date">date:</label>
+    <div>
+    <input type="date" name="myDate" id="date" >
+    </div>
+    <br>
+    <label for="bonus">Bonus:</label>
+    <div>
+         <input type="Number" name="mybonus" id="bonus">
+    </div>
+    <br>
+    <div>
+        are you aligible?: <input type="checkbox" name="myAligibility" checked>
+    </div>
+    <br>
+    <div>
+        Gender: male <input type="radio" name="mygender">
+        female <input type="radio" name="mygender"> other <input type="radio" name="mygender">
+    </div>
+    <br>
+    <label for="write yourself">Write about yourself:</label>
+    <div>
+          <textarea name=""  cols="30" rows="10" id="write yourself"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="car">Car:</label>
+        <select name="mycar" id="car">
+        <option value="fort" >Fortuner</option>
+        <option value="def" selected>Defender</option>
+        </select>
+    </div>
+   <br> 
+    
+
+
+
+    <div>
+        <input type="submit" value="Submit Now">
+        
+        <input type="reset" value="Reset Now">
+    </div>
+    
+    
+    
+</body>
+</html>
